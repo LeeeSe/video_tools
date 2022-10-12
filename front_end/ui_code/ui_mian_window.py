@@ -1,0 +1,153 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mian_windowpiEzEU.ui'
+##
+## Created by: Qt User Interface Compiler version 6.3.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QMainWindow, QPushButton,
+    QSizePolicy, QSpinBox, QTabWidget, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.setEnabled(True)
+        MainWindow.resize(732, 648)
+        MainWindow.setAnimated(True)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.button_chooser = QPushButton(self.centralwidget)
+        self.button_chooser.setObjectName(u"button_chooser")
+        self.button_chooser.setGeometry(QRect(200, 530, 100, 32))
+        self.button_start = QPushButton(self.centralwidget)
+        self.button_start.setObjectName(u"button_start")
+        self.button_start.setGeometry(QRect(400, 530, 100, 32))
+        self.icon = QLabel(self.centralwidget)
+        self.icon.setObjectName(u"icon")
+        self.icon.setEnabled(True)
+        self.icon.setGeometry(QRect(270, 40, 161, 160))
+        sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.icon.sizePolicy().hasHeightForWidth())
+        self.icon.setSizePolicy(sizePolicy)
+        self.icon.setPixmap(QPixmap(u"../image/icon.png"))
+        self.icon.setScaledContents(True)
+        self.tabWidget = QTabWidget(self.centralwidget)
+        self.tabWidget.setObjectName(u"tabWidget")
+        self.tabWidget.setEnabled(True)
+        self.tabWidget.setGeometry(QRect(130, 220, 451, 261))
+        sizePolicy.setHeightForWidth(self.tabWidget.sizePolicy().hasHeightForWidth())
+        self.tabWidget.setSizePolicy(sizePolicy)
+        self.tab = QWidget()
+        self.tab.setObjectName(u"tab")
+        self.label_5 = QLabel(self.tab)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(128, 60, 80, 16))
+        self.label_9 = QLabel(self.tab)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(140, 110, 58, 16))
+        self.label_size_source = QLabel(self.tab)
+        self.label_size_source.setObjectName(u"label_size_source")
+        self.label_size_source.setGeometry(QRect(200, 60, 181, 16))
+        self.spinBox = QSpinBox(self.tab)
+        self.spinBox.setObjectName(u"spinBox")
+        self.spinBox.setGeometry(QRect(200, 110, 71, 22))
+        self.spinBox.setMaximum(999999)
+        self.label_size_unit = QLabel(self.tab)
+        self.label_size_unit.setObjectName(u"label_size_unit")
+        self.label_size_unit.setGeometry(QRect(280, 110, 58, 16))
+        self.tabWidget.addTab(self.tab, "")
+        self.quick_mod = QWidget()
+        self.quick_mod.setObjectName(u"quick_mod")
+        self.label_size = QLabel(self.quick_mod)
+        self.label_size.setObjectName(u"label_size")
+        self.label_size.setGeometry(QRect(47, 70, 60, 16))
+        self.label_bit = QLabel(self.quick_mod)
+        self.label_bit.setObjectName(u"label_bit")
+        self.label_bit.setGeometry(QRect(60, 110, 58, 16))
+        self.label_fps = QLabel(self.quick_mod)
+        self.label_fps.setObjectName(u"label_fps")
+        self.label_fps.setGeometry(QRect(60, 150, 58, 16))
+        self.label = QLabel(self.quick_mod)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(110, 30, 58, 16))
+        self.label_2 = QLabel(self.quick_mod)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(300, 31, 58, 16))
+        self.label_size_2 = QLabel(self.quick_mod)
+        self.label_size_2.setObjectName(u"label_size_2")
+        self.label_size_2.setGeometry(QRect(249, 71, 60, 16))
+        self.label_fps_2 = QLabel(self.quick_mod)
+        self.label_fps_2.setObjectName(u"label_fps_2")
+        self.label_fps_2.setGeometry(QRect(262, 151, 58, 16))
+        self.label_bit_2 = QLabel(self.quick_mod)
+        self.label_bit_2.setObjectName(u"label_bit_2")
+        self.label_bit_2.setGeometry(QRect(262, 111, 58, 16))
+        self.label_shape_source = QLabel(self.quick_mod)
+        self.label_shape_source.setObjectName(u"label_shape_source")
+        self.label_shape_source.setGeometry(QRect(100, 70, 121, 16))
+        self.label_bit_source = QLabel(self.quick_mod)
+        self.label_bit_source.setObjectName(u"label_bit_source")
+        self.label_bit_source.setGeometry(QRect(100, 110, 111, 16))
+        self.label_fps_source = QLabel(self.quick_mod)
+        self.label_fps_source.setObjectName(u"label_fps_source")
+        self.label_fps_source.setGeometry(QRect(100, 150, 111, 16))
+        self.label_size_source_2 = QLabel(self.quick_mod)
+        self.label_size_source_2.setObjectName(u"label_size_source_2")
+        self.label_size_source_2.setGeometry(QRect(100, 190, 111, 16))
+        self.tabWidget.addTab(self.quick_mod, "")
+        self.type_mod = QWidget()
+        self.type_mod.setObjectName(u"type_mod")
+        self.tabWidget.addTab(self.type_mod, "")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.icon.raise_()
+        self.tabWidget.raise_()
+        self.button_chooser.raise_()
+        self.button_start.raise_()
+
+        self.retranslateUi(MainWindow)
+
+        self.tabWidget.setCurrentIndex(0)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.button_chooser.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9\u6587\u4ef6", None))
+        self.button_start.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb", None))
+        self.icon.setText("")
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"\u6e90\u6587\u4ef6\u5927\u5c0f\uff1a", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"\u76ee\u6807\u5927\u5c0f\uff1a", None))
+        self.label_size_source.setText(QCoreApplication.translate("MainWindow", u"\u8bf7\u5148\u9009\u62e9\u89c6\u9891\u6587\u4ef6", None))
+        self.label_size_unit.setText("")
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u5feb\u901f\u538b\u7f29", None))
+        self.label_size.setText(QCoreApplication.translate("MainWindow", u"\u5206\u8fa8\u7387\uff1a", None))
+        self.label_bit.setText(QCoreApplication.translate("MainWindow", u"\u7801\u7387\uff1a", None))
+        self.label_fps.setText(QCoreApplication.translate("MainWindow", u"\u5e27\u7387\uff1a", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"\u539f\u4fe1\u606f", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u76ee\u6807", None))
+        self.label_size_2.setText(QCoreApplication.translate("MainWindow", u"\u5206\u8fa8\u7387\uff1a", None))
+        self.label_fps_2.setText(QCoreApplication.translate("MainWindow", u"\u5e27\u7387\uff1a", None))
+        self.label_bit_2.setText(QCoreApplication.translate("MainWindow", u"\u7801\u7387\uff1a", None))
+        self.label_shape_source.setText(QCoreApplication.translate("MainWindow", u"\u8bf7\u5148\u9009\u62e9\u89c6\u9891\u6587\u4ef6", None))
+        self.label_bit_source.setText("")
+        self.label_fps_source.setText("")
+        self.label_size_source_2.setText("")
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.quick_mod), QCoreApplication.translate("MainWindow", u"\u53c2\u6570\u8c03\u6574", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.type_mod), QCoreApplication.translate("MainWindow", u"\u683c\u5f0f\u8f6c\u6362", None))
+    # retranslateUi
+
